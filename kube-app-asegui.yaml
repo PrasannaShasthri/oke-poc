@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: asegui
-        image: iad.ocir.io/orasenatdctocloudcorp01/asecotcontainergui:4.0
+        image: iad.ocir.io/orasenatdctocloudcorp01/asecotcontainergui:5.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
